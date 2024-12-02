@@ -711,6 +711,9 @@ class VersionUpstreamValidator {
     'https://github.com/flutter/flutter.git',
     'git@github.com:flutter/flutter.git',
     'ssh://git@github.com/flutter/flutter.git',
+    'https://github.com/victoreronmosele/flock.git',
+    'git@github.com:victoreronmosele/flock.git',
+    'ssh://git@github.com/victoreronmosele/flock.git',
   ];
 
   // Strips ".git" suffix from a given string, preferably an url.
