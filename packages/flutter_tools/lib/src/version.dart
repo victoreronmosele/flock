@@ -942,7 +942,7 @@ class GitTagVersion {
         globals.printTrace('Skipping request to fetchTags - on well known channel $channel.');
       } else {
         final String flutterGit =
-            platform.environment['FLUTTER_GIT_URL'] ?? 'https://github.com/flutter/flutter.git';
+            platform.environment['FLUTTER_GIT_URL'] ?? 'https://github.com/victoreronmosele/flock.git';
         _runGit('git fetch $flutterGit --tags -f', processUtils, workingDirectory);
       }
     }
