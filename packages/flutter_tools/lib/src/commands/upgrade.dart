@@ -268,7 +268,7 @@ class UpgradeCommandRunner {
     try {
       // Fetch upstream branch's commits and tags
       await globals.processUtils.run(
-        <String>['git', 'fetch', '--tags'],
+        <String>['git', 'fetch', '--tags','--force'],
         throwOnError: true,
         workingDirectory: workingDirectory,
       );
